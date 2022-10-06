@@ -11,10 +11,10 @@
 
 .card__duration-time {
   display: flex;
-}
-
-.card__duration-time * {
-  padding: 2px;
+  justify-content: space-around;
+  max-width: 60px;
+  margin-left: 12px;
+  margin-top: 10px;
 }
 
 .card__duration-time__hours {
@@ -33,11 +33,16 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 22px;
+  padding: 10px 12px;
+  padding-bottom: 0;
 }
 
 .card__short-info ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .card__short-info li {
@@ -49,10 +54,12 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  margin-top: 10px;
 }
 
 .card__start-times {
   display: flex;
+  margin: 5px 5px 5px 40px;
 }
 
 .card__start-times div {
@@ -66,14 +73,14 @@
   font-size: 14px;
   line-height: 20px;
   margin: 3px;
+  margin-top: 0;
 }
 
 .card__conditions {
   display: flex;
-}
-
-.card__conditions * {
-  padding: 2px;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
 }
 
 .card__conditions__btn button {
@@ -89,6 +96,11 @@
   font-size: 14px;
   line-height: 20px;
   color: #404040;
+}
+
+.card__conditions__btn button:hover {
+  cursor: pointer;
+  opacity: 95%;
 }
 
 .card__conditions__prices__base-price {
