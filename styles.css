@@ -2,6 +2,7 @@
   border: 0.3px solid #828282;
   border-radius: 16px;
   width: 341px;
+  margin: 10px;
 }
 
 .card__img img {
@@ -61,6 +62,7 @@
 .card__start-times {
   display: flex;
   margin: 5px 5px 5px 40px;
+  flex-wrap: wrap;
 }
 
 .card__start-times div {
@@ -75,6 +77,16 @@
   line-height: 20px;
   margin: 3px;
   margin-top: 0;
+}
+
+.card__start-times-more {
+  cursor: pointer;
+}
+
+.card__start-times div:hover, .card__start-times-more:hover {
+  opacity: 95%;
+  background-color: #6BA6FF;
+  color: #FFFFFF;
 }
 
 .card__conditions {
@@ -110,6 +122,10 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 20px;
+}
+
+.base-price-only {
+  margin-left: 30px;
 }
 
 .card__conditions__prices__last-price {
