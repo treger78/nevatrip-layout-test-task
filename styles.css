@@ -1,0 +1,108 @@
+.card {
+  border: 0.3px solid #828282;
+  border-radius: 16px;
+  width: 341px;
+}
+
+.card__img img {
+  height: 220px;
+  width: auto;
+}
+
+.card__duration-time {
+  display: flex;
+}
+
+.card__duration-time * {
+  padding: 2px;
+}
+
+.card__duration-time__hours {
+  color: #9E9E9E;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card__title {
+  color: #404040;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.card__short-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card__short-info li {
+  background: url("./assets/svg/icons/tick.svg") no-repeat;
+  padding-left: 30px;
+  color: #4B4B4B;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.card__start-times {
+  display: flex;
+}
+
+.card__start-times div {
+  padding: 2px 13px;
+  background-color: #D9E8FF;
+  border-radius: 11px;
+  color: #343434;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 3px;
+}
+
+.card__conditions {
+  display: flex;
+}
+
+.card__conditions * {
+  padding: 2px;
+}
+
+.card__conditions__btn button {
+  background: #FED74B;
+  border: 0.5px solid #CBA500;
+  border-radius: 20px;
+  height: 44px;
+  width: 165px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+
+.card__conditions__prices__base-price {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.card__conditions__prices__last-price {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+}
