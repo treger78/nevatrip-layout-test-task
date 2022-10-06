@@ -4,7 +4,7 @@ const main = document.getElementById('main');
 
 const cardsData = [
   [
-    './assets/svg/images/card-img-01-piter.svg',
+    './assets/images/card-img1.png',
     '2 часа',
     'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
     ['12:00', '12:30', '13:00', '13:30'],
@@ -13,7 +13,7 @@ const cardsData = [
     main,
   ],
   [
-    './assets/svg/images/card-img-01-piter.svg',
+    './assets/images/card-img2.png',
     '2 часа',
     'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
     ['12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00'],
@@ -22,7 +22,25 @@ const cardsData = [
     main,
   ],
   [
-    './assets/svg/images/card-img-01-piter.svg',
+    './assets/images/card-img1.png',
+    '2 часа',
+    'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
+    ['12:00', '12:30', '13:00', '13:30'],
+    900,
+    undefined,
+    main,
+  ],
+  [
+    './assets/images/card-img2.png',
+    '2 часа',
+    'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
+    ['12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00'],
+    2900,
+    '1200 р на причале',
+    main,
+  ],
+  [
+    './assets/images/card-img1.png',
     '2 часа',
     'АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019',
     ['12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00'],

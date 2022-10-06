@@ -80,6 +80,7 @@ export class Card {
 
           for (let i = 0; i < hiddenTimes.length; i += 1) {
             hiddenTimes[i].removeAttribute('hidden');
+            target.parentNode.style.position = 'initial';
           }
 
           target.remove();
@@ -129,8 +130,12 @@ export class Card {
     const card = document.createElement('div');
     card.classList.add('card');
 
+    card.insertAdjacentHTML('beforeend', this.createCardImg());
+    card.appendChild(document.createElement('div'));
+
+    const cardDiv = card.children[1];
+
     const finalCardContent = {
-      cardImg: this.createCardImg(),
       cardDuration: this.createCardDuration(),
       cardTitle: this.createCardTitle(),
       cardShortInfo: this.createCardShortInfo(),
@@ -140,9 +145,9 @@ export class Card {
 
     for (let item in finalCardContent) {
       if (typeof finalCardContent[item] === 'object') {
-        card.appendChild(finalCardContent[item]);
+        cardDiv.appendChild(finalCardContent[item]);
       } else {
-        card.insertAdjacentHTML('beforeend', finalCardContent[item]);
+        cardDiv.insertAdjacentHTML('beforeend', finalCardContent[item]);
       }
     }
 
